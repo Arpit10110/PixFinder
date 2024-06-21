@@ -1,0 +1,35 @@
+nav{
+    height: 10vh;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.7rem;
+    background-color: rgb(38, 38, 38);
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.nav-links a{
+    color: #00ffc7;
+}
+.nav-links a:hover{
+    color: rgb(255, 255, 255);
+}
+
+@media only screen and (width<=700px) {
+    nav {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media only screen and (width<=350px) {
+    nav {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

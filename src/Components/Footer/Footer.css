@@ -1,0 +1,17 @@
+.Footer-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    height: 6vh;
+    text-align: center;
+    background-color: rgb(38, 38, 38);
+}
+.Footer-div h1{
+    font-weight: 100;
+}
+@media only screen and (width<=700px) {
+    .Footer-div{
+        font-size: 0.7rem;
+    }
+}
