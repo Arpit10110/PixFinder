@@ -38,7 +38,27 @@
     align-items: center;
     justify-content: center; 
 }
-
+.pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    gap: 3rem;
+}
+.pages button{
+    padding: 0.8rem;
+    background-color: #ffffff4a;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    border: none;
+}
+.pages button:hover{
+    scale: 1.15;
+}
 @media only screen and (width<=700px) {
     .search-div input {
         width: 60%;
@@ -46,4 +66,9 @@
     .Loading-div {
         font-size: 2rem;
     }
+    .pages{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    }
+
 }
